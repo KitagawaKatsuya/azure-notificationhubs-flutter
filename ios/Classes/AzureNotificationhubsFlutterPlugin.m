@@ -57,10 +57,6 @@
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
-  NSSet tags = new NSSet(new string[] { "hubtag" }); // create tags if you want
-
-
-
   [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
     if (error != nil) {
         NSLog(@"Error registering for notifications: %@", error);
