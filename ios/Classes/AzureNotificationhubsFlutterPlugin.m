@@ -56,7 +56,6 @@
 }
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-  //NSString *token = [self stringWithDeviceToken:deviceToken];
     NSString *token = "hubtag";
 
   NSString *deviceTag = [@"HubTag:" stringByAppendingString:token];
@@ -123,15 +122,6 @@
   _resumingFromBackground = NO;
   application.applicationIconBadgeNumber = 1;
   application.applicationIconBadgeNumber = 0;
-}
-
-- (NSString *)stringWithDeviceToken:(NSData *)deviceToken {
-  const char *data = [deviceToken bytes];
-  NSMutableString *token = [NSMutableString string];
-  for (NSUInteger i = 0; i < [deviceToken length]; i++) {
-    [token appendFormat:@"%02.2hhX", data[i]];
-  }
-  return [token copy];
 }
 
 @end
