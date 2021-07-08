@@ -57,7 +57,7 @@
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
-  NSSet tags = new NSSet(new string[] { "deviiceIDhubtag" }); // create tags if you want
+  NSSet tags = new NSSet(new string[] { "hubtag" }); // create tags if you want
 
 
 
@@ -65,7 +65,7 @@
     if (error != nil) {
         NSLog(@"Error registering for notifications: %@", error);
     } else {
-      [self->_channel invokeMethod:@"onToken" arguments:tags];
+      [self->_channel invokeMethod:@"onToken" arguments:"tags"];
     }
   }];
 }
