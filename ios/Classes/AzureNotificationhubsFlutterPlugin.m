@@ -56,16 +56,16 @@
 }
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    NSString *token = "hubtag";
 
-  NSString *deviceTag = [@"HubTag:" stringByAppendingString:token];
-  NSArray *tags = @[deviceTag];
-  SBNotificationHub* hub = [self getNotificationHub];
+  NSSet tags = new NSSet(new string[] { "deviiceIDhubtag" }); // create tags if you want
+
+
+
   [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
     if (error != nil) {
         NSLog(@"Error registering for notifications: %@", error);
     } else {
-      [self->_channel invokeMethod:@"onToken" arguments:deviceTag];
+      [self->_channel invokeMethod:@"onToken" arguments:tags];
     }
   }];
 }

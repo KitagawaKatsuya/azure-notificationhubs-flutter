@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="set tag to ios" />
+    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="set tag to ios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625740347186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set tag to ios">
+      <created>1625742240345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625742240345</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,22 +105,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="set tag to ios" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625738986842">
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog" timestamp="1625755573977">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.bottom/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
-    <state width="1548" height="250" key="GridCell.Tab.0.center" timestamp="1625738986842">
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog/0.23.1920.971@0.23.1920.971" timestamp="1625755573977" />
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625755023463">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.center/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
-    <state width="1548" height="250" key="GridCell.Tab.0.left" timestamp="1625738986842">
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom/0.23.1920.971@0.23.1920.971" timestamp="1625755023463" />
+    <state width="1548" height="250" key="GridCell.Tab.0.center" timestamp="1625755023462">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.left/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
-    <state width="1548" height="250" key="GridCell.Tab.0.right" timestamp="1625738986842">
+    <state width="1548" height="250" key="GridCell.Tab.0.center/0.23.1920.971@0.23.1920.971" timestamp="1625755023462" />
+    <state width="1548" height="250" key="GridCell.Tab.0.left" timestamp="1625755023462">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
+    <state width="1548" height="250" key="GridCell.Tab.0.left/0.23.1920.971@0.23.1920.971" timestamp="1625755023462" />
+    <state width="1548" height="250" key="GridCell.Tab.0.right" timestamp="1625755023462">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625755023462" />
     <state x="390" y="235" key="RollbackChangesDialog" timestamp="1625716636394">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
