@@ -57,7 +57,7 @@
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
   //NSString *token = [self stringWithDeviceToken:deviceToken];
-    NSString *token = "hubtag;
+    NSString *token = "hubtag";
 
   NSString *deviceTag = [@"HubTag:" stringByAppendingString:token];
   NSArray *tags = @[deviceTag];
