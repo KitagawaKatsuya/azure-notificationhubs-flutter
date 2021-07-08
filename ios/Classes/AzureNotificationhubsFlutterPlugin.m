@@ -56,14 +56,17 @@
 }
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-  SBNotificationHub* hub = [self getNotificationHub];
-  [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
-    if (error != nil) {
-        NSLog(@"Error registering for notifications: %@", error);
-    } else {
-      [self->_channel invokeMethod:@"onToken" arguments:"tags"];
-    }
-  }];
+   NSString *token = @"hubtag";
+   NSString *deviceTag = [@"HubTag:" stringByAppendingString:token];
+   NSArray *tags = @[deviceTag];
+   SBNotificationHub* hub = [self getNotificationHub];
+   [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
+     if (error != nil) {
+         NSLog(@"Error registering for notifications: %@", error);
+     } else {
+       [self->_channel invokeMethod:@"onToken" arguments:deviceTag];
+     }
+   }];
 }
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
