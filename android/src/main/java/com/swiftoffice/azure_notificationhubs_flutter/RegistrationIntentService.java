@@ -12,6 +12,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
 import com.microsoft.windowsazure.messaging.NotificationHub;
+import com.swiftoffice.azure_notificationhubs_flutter.NotificationService;
+import com.swiftoffice.azure_notificationhubs_flutter.NotificationSettings;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -39,22 +41,14 @@ public class RegistrationIntentService extends IntentService {
                 }
             });
             TimeUnit.SECONDS.sleep(1);
-            String sha1 = "";
-            try {
-                MessageDigest digest = MessageDigest.getInstance("SHA-1");
-                digest.reset();
-                digest.update(FCM_token.getBytes("utf8"));
-                sha1 = String.format("%040x", new BigInteger(1, digest.digest()));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            String[] tags = {
-                "device:" + sha1
-            };
+
             NotificationSettings nhSettings = new NotificationSettings(getApplicationContext());
             if (((regID = sharedPreferences.getString("registrationID", null)) == null)) {
                 NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
                         nhSettings.getHubConnectionString(), this);
+                String[] tags = {
+                        nhSettings.getHubTag()
+                };
                 regID = hub.register(FCM_token, tags).getRegistrationId();
                 resultString = "New NH Registration Successfully - RegId : " + regID;
                 Log.d(TAG, resultString);
@@ -66,6 +60,9 @@ public class RegistrationIntentService extends IntentService {
             else if ((sharedPreferences.getString("FCMtoken", "")) != FCM_token) {
                 NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
                         nhSettings.getHubConnectionString(), this);
+                String[] tags = {
+                        nhSettings.getHubTag()
+                };
                 regID = hub.register(FCM_token, tags).getRegistrationId();
                 resultString = "New NH Registration Successfully - RegId : " + regID;
                 Log.d(TAG, resultString);
@@ -75,7 +72,7 @@ public class RegistrationIntentService extends IntentService {
                 resultString = "Previously Registered Successfully - RegId : " + regID;
             }
             Intent tIntent = new Intent(NotificationService.ACTION_TOKEN);
-            tIntent.putExtra(NotificationService.EXTRA_TOKEN, "device:" + sha1);
+            tIntent.putExtra(NotificationService.EXTRA_TOKEN, nhSettings.getHubTag());
             LocalBroadcastManager.getInstance(this).sendBroadcast(tIntent);
         } catch (Exception e) {
             Log.e(TAG, resultString = "Failed to complete registration", e);
