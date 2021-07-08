@@ -22,19 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Tag updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azure_notificationhubs_flutter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azure_notificationhubs_flutter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AzureNotificationhubsFlutterPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AzureNotificationhubsFlutterPlugin.m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +35,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1v14D9UD2qHfLjbqEwFHtyVm5uB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -63,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1625716138825</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tag updated">
+      <created>1625738963436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625738963436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,23 +77,27 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tag updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag updated" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625717695823">
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625738986842">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.bottom/0.23.1920.971@0.23.1920.971" timestamp="1625717695823" />
-    <state width="1548" height="250" key="GridCell.Tab.0.center" timestamp="1625717695822">
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
+    <state width="1548" height="250" key="GridCell.Tab.0.center" timestamp="1625738986842">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.center/0.23.1920.971@0.23.1920.971" timestamp="1625717695822" />
-    <state width="1548" height="250" key="GridCell.Tab.0.left" timestamp="1625717695822">
+    <state width="1548" height="250" key="GridCell.Tab.0.center/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
+    <state width="1548" height="250" key="GridCell.Tab.0.left" timestamp="1625738986842">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.left/0.23.1920.971@0.23.1920.971" timestamp="1625717695822" />
-    <state width="1548" height="250" key="GridCell.Tab.0.right" timestamp="1625717695823">
+    <state width="1548" height="250" key="GridCell.Tab.0.left/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
+    <state width="1548" height="250" key="GridCell.Tab.0.right" timestamp="1625738986842">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625717695823" />
+    <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625738986842" />
     <state x="390" y="235" key="RollbackChangesDialog" timestamp="1625716636394">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
