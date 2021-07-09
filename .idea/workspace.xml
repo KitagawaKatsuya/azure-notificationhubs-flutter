@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences">
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1v14D9UD2qHfLjbqEwFHtyVm5uB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="" />
+      <created>1625716138825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625716138825</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Tag updated">
+      <created>1625738963436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625738963436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="set tag to ios">
+      <created>1625739941057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625739941057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set tag to ios">
+      <created>1625740347186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625740347186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="set tag to ios">
+      <created>1625742240345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625742240345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="set tag to ios">
+      <created>1625756151869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625756151869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set tag to ios">
+      <created>1625757549036</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625757549036</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set tag to ios">
+      <created>1625758021105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625758021105</updated>
+    </task>
+    <task id="LOCAL-00008" summary="set tag to ios">
+      <created>1625758397025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625758397025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="set tag to ios">
+      <created>1625758599879</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625758599879</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Notification tag is set in shared preferences">
+      <created>1625812583371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625812583371</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Notification tag is set in shared preferences">
+      <created>1625814038136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625814038136</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tag updated" />
+    <MESSAGE value="set tag to ios" />
+    <MESSAGE value="Notification tag is set in shared preferences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notification tag is set in shared preferences" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="607" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625757294495">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state x="607" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.971@0.23.1920.971" timestamp="1625757294495" />
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog" timestamp="1625755573977">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog/0.23.1920.971@0.23.1920.971" timestamp="1625755573977" />
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625814096755">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state width="1548" height="250" key="GridCell.Tab.0.bottom/0.23.1920.971@0.23.1920.971" timestamp="1625814096755" />
+    <state width="1548" height="250" key="GridCell.Tab.0.center" timestamp="1625814096754">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state width="1548" height="250" key="GridCell.Tab.0.center/0.23.1920.971@0.23.1920.971" timestamp="1625814096754" />
+    <state width="1548" height="250" key="GridCell.Tab.0.left" timestamp="1625814096754">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state width="1548" height="250" key="GridCell.Tab.0.left/0.23.1920.971@0.23.1920.971" timestamp="1625814096754" />
+    <state width="1548" height="250" key="GridCell.Tab.0.right" timestamp="1625814096755">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625814096755" />
+    <state x="390" y="235" key="RollbackChangesDialog" timestamp="1625716636394">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state x="390" y="235" key="RollbackChangesDialog/0.23.1920.971@0.23.1920.971" timestamp="1625716636394" />
+    <state x="524" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1625757118823">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state x="524" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1920.971@0.23.1920.971" timestamp="1625757118823" />
+  </component>
+</project>
