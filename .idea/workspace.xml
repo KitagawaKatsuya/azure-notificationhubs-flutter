@@ -22,17 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences">
-      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-    </list>
+    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/android" />
   </component>
   <component name="ProjectId" id="1v14D9UD2qHfLjbqEwFHtyVm5uB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625814038136</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Notification tag is set in shared preferences">
+      <created>1625816665177</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625816665177</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

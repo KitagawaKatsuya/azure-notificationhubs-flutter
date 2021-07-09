@@ -49,7 +49,7 @@ public class RegistrationIntentService extends IntentService {
                 NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
                         nhSettings.getHubConnectionString(), this);
                 String[] tags = {
-                        prefs.getString("flutter." + "AzureTagName", "")+ ":" + prefs.getString("flutter." + "AzurePushTag", "")
+                        prefs.getString("flutter." + "AzurePushTag", "")
 
                 };
                 regID = hub.register(FCM_token, tags).getRegistrationId();
@@ -64,7 +64,6 @@ public class RegistrationIntentService extends IntentService {
                 NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
                         nhSettings.getHubConnectionString(), this);
                 String[] tags = {
-                        prefs.getString("flutter." + "AzureTagName", "")+ ":" +
                                  prefs.getString("flutter." + "AzurePushTag", "")
                 };
                 regID = hub.register(FCM_token, tags).getRegistrationId();
@@ -77,7 +76,7 @@ public class RegistrationIntentService extends IntentService {
             }
             Intent tIntent = new Intent(NotificationService.ACTION_TOKEN);
             tIntent.putExtra(NotificationService.EXTRA_TOKEN,
-                    prefs.getString("flutter." + "AzureTagName", "") + ":"  + prefs.getString("flutter." + "AzurePushTag", ""));
+                     prefs.getString("flutter." + "AzurePushTag", ""));
             LocalBroadcastManager.getInstance(this).sendBroadcast(tIntent);
         } catch (Exception e) {
             Log.e(TAG, resultString = "Failed to complete registration", e);
