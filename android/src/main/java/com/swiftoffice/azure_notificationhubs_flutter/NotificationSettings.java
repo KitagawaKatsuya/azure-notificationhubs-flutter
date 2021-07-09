@@ -1,14 +1,17 @@
 package com.swiftoffice.azure_notificationhubs_flutter;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+
+import static android.content.Context.MODE_PRIVATE;
 
 public class NotificationSettings {
     private String HubName;
     private String HubConnectionString;
-    private String HubTag;
 
     public NotificationSettings(Context context) {
         try {
@@ -17,7 +20,6 @@ public class NotificationSettings {
             Bundle bundle = app.metaData;
             HubName = bundle.getString("NotificationHubName");
             HubConnectionString = bundle.getString("NotificationHubConnectionString");
-            HubTag = bundle.getString("HubTag");
         } catch (PackageManager.NameNotFoundException e) {
         }
     }
@@ -28,10 +30,6 @@ public class NotificationSettings {
 
     public String getHubConnectionString() {
         return HubConnectionString;
-    }
-
-    public String getHubTag() {
-        return HubTag;
     }
 
 }
