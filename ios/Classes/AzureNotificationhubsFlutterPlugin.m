@@ -56,15 +56,17 @@
 }
 
 - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-   NSString *token = @"hubtag";
-   NSString *deviceTag = [@"HubTag:" stringByAppendingString:token];
-   NSArray *tags = @[deviceTag];
+
+   NSString* azurePushTag = [[NSUserDefaults standardUserDefaults]
+       objectForKey:@"flutter.AzurePushTag"];
+
+   NSArray *tags = @[azurePushTag];
    SBNotificationHub* hub = [self getNotificationHub];
    [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
      if (error != nil) {
          NSLog(@"Error registering for notifications: %@", error);
      } else {
-       [self->_channel invokeMethod:@"onToken" arguments:deviceTag];
+       [self->_channel invokeMethod:@"onToken" arguments:azurePushTag];
      }
    }];
 }
