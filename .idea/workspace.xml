@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="set tag to ios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/NotificationSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/NotificationSettings.java" afterDir="false" />
-    </list>
+    <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625758599879</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Notification tag is set in shared preferences">
+      <created>1625812583371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625812583371</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tag updated" />
     <MESSAGE value="set tag to ios" />
-    <option name="LAST_COMMIT_MESSAGE" value="set tag to ios" />
+    <MESSAGE value="Notification tag is set in shared preferences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notification tag is set in shared preferences" />
   </component>
   <component name="WindowStateProjectService">
     <state x="607" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625757294495">
