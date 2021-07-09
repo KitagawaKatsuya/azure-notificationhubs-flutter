@@ -21,6 +21,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import static androidx.core.app.NotificationCompat.DEFAULT_ALL;
 import static androidx.core.app.NotificationCompat.DEFAULT_SOUND;
@@ -70,8 +71,8 @@ public class NotificationService extends FirebaseMessagingService {
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(
                     ctx,
                     NOTIFICATION_CHANNEL_ID)
-                .setContentTitle(((Map) content.get("data")).get("title").toString())
-                .setContentText(((Map) content.get("data")).get("body").toString())
+                .setContentTitle(Objects.requireNonNull(((Map) Objects.requireNonNull(content.get("data"))).get("title")).toString())
+                .setContentText(Objects.requireNonNull(((Map) content.get("data")).get("body")).toString())
                 .setDefaults(DEFAULT_SOUND | DEFAULT_VIBRATE | DEFAULT_ALL)
                 .setPriority(PRIORITY_HIGH)
                 .setSmallIcon(R.drawable.ic_menu_manage)

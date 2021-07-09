@@ -56,6 +56,7 @@ public class AzureNotificationhubsFlutterPlugin extends BroadcastReceiver implem
         intentFilter.addAction(NotificationService.ACTION_TOKEN);
         intentFilter.addAction(NotificationService.ACTION_REMOTE_MESSAGE);
         LocalBroadcastManager manager = LocalBroadcastManager.getInstance(applicationContext);
+        LocalBroadcastManager.getInstance(binding.getApplicationContext()).unregisterReceiver(this);
         manager.registerReceiver(this, intentFilter);
     }
 

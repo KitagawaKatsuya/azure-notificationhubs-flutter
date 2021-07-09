@@ -24,8 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/AzureNotificationhubsFlutterPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AzureNotificationhubsFlutterPlugin.m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/android" />
   </component>
   <component name="ProjectId" id="1v14D9UD2qHfLjbqEwFHtyVm5uB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -170,10 +170,10 @@
       <screen x="0" y="23" width="1920" height="971" />
     </state>
     <state x="164" y="157" width="1390" height="737" key="AVDManager/0.23.1920.971@0.23.1920.971" timestamp="1625822793827" />
-    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog" timestamp="1625755573977">
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog" timestamp="1625824025121">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog/0.23.1920.971@0.23.1920.971" timestamp="1625755573977" />
+    <state x="164" y="157" width="1390" height="737" key="DiffContextDialog/0.23.1920.971@0.23.1920.971" timestamp="1625824025121" />
     <state width="1548" height="250" key="GridCell.Tab.0.bottom" timestamp="1625814096755">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
