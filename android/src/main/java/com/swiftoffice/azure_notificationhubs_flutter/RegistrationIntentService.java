@@ -13,7 +13,6 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
 import com.microsoft.windowsazure.messaging.NotificationHub;
 import com.swiftoffice.azure_notificationhubs_flutter.NotificationService;
-import com.swiftoffice.azure_notificationhubs_flutter.NotificationSettings;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -66,6 +65,7 @@ public class RegistrationIntentService extends IntentService {
                 String[] tags = {
                                  prefs.getString("flutter." + "AzurePushTag", "")
                 };
+                hub.unregisterAll(FCM_token);
                 regID = hub.register(FCM_token, tags).getRegistrationId();
                 resultString = "New NH Registration Successfully - RegId : " + regID;
                 Log.d(TAG, resultString);
