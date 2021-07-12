@@ -49,8 +49,8 @@ public class RegistrationIntentService extends IntentService {
                         nhSettings.getHubConnectionString(), this);
                 String[] tags = {
                         prefs.getString("flutter." + "AzurePushTag", "")
-
                 };
+                hub.unregisterAll(FCM_token);
                 regID = hub.register(FCM_token, tags).getRegistrationId();
                 resultString = "New NH Registration Successfully - RegId : " + regID;
                 Log.d(TAG, resultString);
