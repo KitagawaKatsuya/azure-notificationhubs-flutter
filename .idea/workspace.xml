@@ -19,13 +19,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346d2463-ac76-4caf-9c54-0653257ff666" name="Default Changelist" comment="Notification tag is set in shared preferences">
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/AzureNotificationhubsFlutterPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/swiftoffice/azure_notificationhubs_flutter/RegistrationIntentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/android" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1v14D9UD2qHfLjbqEwFHtyVm5uB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -148,7 +154,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -190,10 +223,14 @@
       <screen x="0" y="23" width="1920" height="971" />
     </state>
     <state width="1548" height="250" key="GridCell.Tab.0.right/0.23.1920.971@0.23.1920.971" timestamp="1625814096755" />
-    <state x="390" y="235" key="RollbackChangesDialog" timestamp="1625716636394">
+    <state x="390" y="235" key="RollbackChangesDialog" timestamp="1626070034121">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state x="390" y="235" key="RollbackChangesDialog/0.23.1920.971@0.23.1920.971" timestamp="1625716636394" />
+    <state x="390" y="235" key="RollbackChangesDialog/0.23.1920.971@0.23.1920.971" timestamp="1626070034121" />
+    <state x="563" y="265" key="Vcs.Push.Dialog.v2" timestamp="1626071795326">
+      <screen x="0" y="23" width="1920" height="971" />
+    </state>
+    <state x="563" y="265" key="Vcs.Push.Dialog.v2/0.23.1920.971@0.23.1920.971" timestamp="1626071795326" />
     <state x="524" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1625757118823">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
