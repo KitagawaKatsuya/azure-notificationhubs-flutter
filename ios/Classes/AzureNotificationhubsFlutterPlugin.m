@@ -90,8 +90,10 @@
 }
 
 - (SBNotificationHub *)getNotificationHub {
-  NSString *hubName = [[NSBundle mainBundle] objectForInfoDictionaryKey:NHInfoHubName];
-  NSString *connectionString = [[NSBundle mainBundle] objectForInfoDictionaryKey:NHInfoConnectionString];
+    NSString* hubName = [[NSUserDefaults standardUserDefaults]
+         objectForKey:@"flutter.AzureHubName"];
+  NSString *connectionString = [[NSUserDefaults standardUserDefaults]
+                                        objectForKey:@"flutter.AzureHubConnectionString"];
   return [[SBNotificationHub alloc] initWithConnectionString:connectionString notificationHubPath:hubName];
 }
 
