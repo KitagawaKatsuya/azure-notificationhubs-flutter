@@ -35,18 +35,20 @@ public class RegistrationIntentService extends IntentService {
         String resultString = null;
         String regID = null;
         try {
-            FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(new OnSuccessListener < InstanceIdResult > () {
+            FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(new OnSuccessListener<InstanceIdResult>() {
                 @Override
                 public void onSuccess(InstanceIdResult instanceIdResult) {
                     FCM_token = instanceIdResult.getToken();
                 }
             });
             TimeUnit.SECONDS.sleep(1);
+            String azureNotificationHubName = prefs.getString("flutter." + "AzureHubName", "");
+            String azureNotHubConnectionString = prefs.getString("flutter." + "AzureHubConnectionString", "");
 
-            NotificationSettings nhSettings = new NotificationSettings(getApplicationContext());
+            //  NotificationSettings nhSettings = new NotificationSettings(getApplicationContext());
             if (((regID = sharedPreferences.getString("registrationID", null)) == null)) {
-                NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
-                        nhSettings.getHubConnectionString(), this);
+                NotificationHub hub = new NotificationHub(azureNotificationHubName,
+                        azureNotHubConnectionString, this);
                 String[] tags = {
                         prefs.getString("flutter." + "AzurePushTag", "")
                 };
@@ -60,10 +62,10 @@ public class RegistrationIntentService extends IntentService {
 
             // Check to see if the token has been compromised and needs refreshing.
             else if ((sharedPreferences.getString("FCMtoken", "")) != FCM_token) {
-                NotificationHub hub = new NotificationHub(nhSettings.getHubName(),
-                        nhSettings.getHubConnectionString(), this);
+                NotificationHub hub = new NotificationHub(azureNotificationHubName,
+                        azureNotHubConnectionString, this);
                 String[] tags = {
-                                 prefs.getString("flutter." + "AzurePushTag", "")
+                        prefs.getString("flutter." + "AzurePushTag", "")
                 };
                 hub.unregisterAll(FCM_token);
                 regID = hub.register(FCM_token, tags).getRegistrationId();
@@ -76,7 +78,7 @@ public class RegistrationIntentService extends IntentService {
             }
             Intent tIntent = new Intent(NotificationService.ACTION_TOKEN);
             tIntent.putExtra(NotificationService.EXTRA_TOKEN,
-                     prefs.getString("flutter." + "AzurePushTag", ""));
+                    prefs.getString("flutter." + "AzurePushTag", ""));
             LocalBroadcastManager.getInstance(this).sendBroadcast(tIntent);
         } catch (Exception e) {
             Log.e(TAG, resultString = "Failed to complete registration", e);
